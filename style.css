@@ -3,15 +3,23 @@
   margin: 0px;
 }
 body {
-  background-color: rgb(229, 236, 238);
+  background-color: rgb(246, 248, 249);
   font-family: Arial, Helvetica, sans-serif;
+}
+.apple-share {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 20px 20%;
+  border-radius: 50%;
 }
 .wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 90px;
+  margin-top: 50px;
   align-items: center;
 }
+
 .profile-pic {
   border-radius: 50%;
 }
@@ -23,21 +31,40 @@ body {
   color: rgba(16, 19, 19, 0.579);
 }
 .social-media {
+  display: flex;
+  justify-content: space-between;
   margin: 30px 0;
 }
-.BNB-investor {
+.instagram:hover {
+  transform: scale(1.1);
+}
+.tiktok:hover {
+  transform: scale(1.1);
+}
+.youtube:hover {
+  transform: scale(1.1);
+}
+.twitter:hover {
+  transform: scale(1.1);
+}
+.work-speciality {
   background-color: white;
   width: 50%;
   display: flex;
   padding: 15px 5px;
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 .description {
   margin: 0 10px;
+  text-align: center;
 }
 .upload {
   opacity: 0;
+  border-radius: 35%;
+  margin: 5px 10px;
 }
-.BNB-investor:hover > .upload {
+.work-speciality:hover > .upload {
   opacity: 1;
+  background-color: rgb(239, 228, 228);
 }
